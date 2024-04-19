@@ -14,14 +14,8 @@ function Home() {
         <span> Inpaint</span> your Image
       </h1>
       <div className="link-container">
-        <a href="deblurring" className="link">
-          Deblurr
-        </a>
-        <a href="denoising" className="link">
-          Denoise{" "}
-        </a>
         <a href="inpainting" className="link">
-          Inpaint
+          Let's start !
         </a>
       </div>
 

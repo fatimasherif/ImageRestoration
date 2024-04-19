@@ -1,19 +1,20 @@
-import React from 'react';
-import Navbar from '../components/Navbar/Navbar';
-import { Box } from '@chakra-ui/react';
+import React from "react";
+import Navbar from "../components/Navbar/Navbar";
+import { Box } from "@chakra-ui/react";
 
 const MainContent = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <div className="container">
-      <div className="item1">1</div>
-      <div className="item2">2</div>
-      <div className="item3">3</div>
-      <div className="item4">4</div>
-    </div>
+        <a href="/inpainting" className="item1"></a>
+
+        <a href="/deblurring" className="item2"></a>
+        <a href="/denoising" className="item3"></a>
+        <div className="item4"></div>
+      </div>
     </div>
   );
-}
+};
 
 export default MainContent;
